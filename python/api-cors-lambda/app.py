@@ -17,6 +17,8 @@ class ApiCorsLambdaStack(core.Stack):
 
         base_api = _apigw.RestApi(self, 'ApiGatewayWithCors',
                                   rest_api_name='ApiGatewayWithCors')
+        
+        //Hi
 
         example_entity = base_api.root.add_resource(
             'example',
